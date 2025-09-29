@@ -5,11 +5,18 @@
       <TITLE>Webページの基礎</TITLE>
    </HEAD>
    <BODY>
-	<center><h1>コンピュータグラフィックス</h1>
-	<P>担当　中村直人</center>
-　　　　<P>この授業では、CGの理論と実際の制作を体験します。</p>
-<p>アニメーションでCGが動くと感動です。</p>
-<p><a href="lesson1-top.html">もどる</a></p>
+   <div id="datetime" style="margin-top:20px;"></div>
+   <script>
+   function updateDateTime() {
+     const now = new Date();
+     document.getElementById('datetime').textContent = now.toString();
+   }
+   setInterval(updateDateTime, 1000);
+   updateDateTime();
+   </script>
+	<h1>コンピュータグラフィックス</h1>
+	<P>担当　中村直人</P>
+   <P>この授業では、WebGLを用いてコンピュータグラフィックスを作成します。</p>
         <P><img src="ganba.png" width="128" height="128" alt="頑張ろう">
    </BODY>
 </HTML>
