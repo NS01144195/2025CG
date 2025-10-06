@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: 'MS Mincho', 'Hiragino Mincho Pro', 'Yu Mincho', serif;
+}
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+p {
+  color: orange;
+  font-size: 1.1em;
+}
+link {
+  color: #0070c0;
+  text-decoration: underline;
+}
+img {
+  border: 2px solid #000;
+}
+.ganba-img {
+  width: 128px;
+  height: 128px;
+
+}
+#datetime {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+  font-family: 'MS Mincho', 'Hiragino Mincho Pro', 'Yu Mincho', serif;
+}

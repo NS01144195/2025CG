@@ -1,15 +1,31 @@
-﻿<!doctype html>
-<HTML>
-   <HEAD>
-      <meta charset="UTF-8">
-      <TITLE>Webページの基礎</TITLE>
-   </HEAD>
-   <BODY>
-	<center><h1>情報数学基礎</h1>
-	<P>担当　中村直人</center>
-　　　　<P>この授業では、整数論を学びその応用として暗号理論を紹介します。</p>
-<p>電卓でも可能ですができればプログラムでやりましょう。</p>
-<p><a href="lesson1-top.html">もどる</a></p>
-        <P><img src="ganba.png" width="128" height="128" alt="頑張ろう">
-   </BODY>
-</HTML>
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webページの基礎</title>
+  <link rel="stylesheet" href="lesson1.css">
+</head>
+
+<body>
+  <div id="datetime"></div>
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      document.getElementById('datetime').textContent = now.toString();
+    }
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+  </script>
+
+  <h1>情報数学基礎</h1>
+  <p>担当 中村直人</p>
+  <p>この授業では、整数論を学びその応用として暗号理論を紹介します。</p>
+  <p>電卓でも可能ですができればプログラムでやりましょう。</p>
+  <p>
+    <link href="lesson1-top.html">もどる</link>
+  </p>
+  <p><img src="ganba.png" class="ganba-img" alt="頑張ろう"></p>
+</body>
+
+</html>
